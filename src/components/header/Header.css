@@ -1,12 +1,22 @@
 .header {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .header h1 {
-    font-size: 40px;
-    font-weight: bold;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
   
